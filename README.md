@@ -1,1 +1,1 @@
-# nation-favicon-replacer
+# notion-favicon-replacer
