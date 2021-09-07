@@ -1,9 +1,9 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
   
     "name": "notion-favicon-replacer",
     "description": "Replaces notion's dynamic favicons with their default favicon",
-    "version": "1",
+    "version": "1.4",
   
     "icons": { "16": "ext_16.png",
              "48": "ext_48.png",
@@ -15,5 +15,8 @@
         "js": ["jquery-3.6.0.min.js","replace.js"],
         "run_at": "document_end"
       }
+    ],
+    "host_permissions": [
+      "https://www.notion.so/*"
     ]
   }
